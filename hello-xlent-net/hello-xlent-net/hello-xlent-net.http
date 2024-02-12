@@ -4,3 +4,5 @@ GET {{hello_xlent_net_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+GET {{hello_xlent_net_HostAddress}}/message/
+Accept: application/json
