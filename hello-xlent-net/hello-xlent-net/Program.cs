@@ -17,7 +17,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-app.MapGet("/message", () => "Hello XLENT").WithName("GetMessage").WithOpenApi();
+app.MapGet("/message",
+    () => "Hello XLENT"
+).WithName("GetMessage").WithOpenApi();
 
 app.Run();
 

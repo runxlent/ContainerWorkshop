@@ -1,4 +1,4 @@
-@hello_xlent_net_HostAddress = http://localhost:5020
+@hello_xlent_net_HostAddress = http://localhost:8080
 
 GET {{hello_xlent_net_HostAddress}}/message/
 Accept: application/json
